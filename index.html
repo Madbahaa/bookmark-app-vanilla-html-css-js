@@ -9,9 +9,36 @@
     <title>Bookmark App</title>
 </head>
 <body>
-    <div>
+    <div class="title">
         <h3>Bookmark Application</h3>
+        <hr>
     </div>
+    <div class="body container">
+        <form class="row">
+            <fieldset class="column column-50 column-offset-25">
+                    <label for="webSite">Web site</label>
+                    <input type="text"  id="webSite">
+                    <label for="siteUrl">URL</label>
+                    <input type="text"  id="siteUrl">
+                    <input class="button-primary" type="submit" value="Add">
+            </fieldset>
+        </form>
+        <hr>
+    </div>
+    <div id="bookmarksOutput">
+        <div class="container">
+            <div class="row">
+                <div class="column column-50 column-offset-25">
+                        <blockquote>
+                                <h4><em>Title goes here</em></h4>
+                                <input  class="button-outline" type="submit" value="visit">
+                                <input  class="button-primary" type="submit" value="Delete">
+                         </blockquote>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
 <script src="main.js"></script>
 </body>
